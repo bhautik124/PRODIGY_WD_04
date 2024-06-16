@@ -1,0 +1,122 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: black;
+}
+
+header {
+  /* background-color: #333; */
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  gap: 10%;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: azure;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 2vw;
+  font-family: "Kanit", sans-serif;
+}
+
+#home, #projects, #contact {
+  padding: 2em 0;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.profile-image {
+  max-width: 75%;
+  max-height: 100%;
+  margin-right: 20px;
+  flex-shrink: 0;
+  border-radius: 10%;
+}
+
+.intro-text {
+  width: 55%;
+}
+
+h1 {
+  color: azure;
+  font-size: 5vw;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+}
+
+h6 {
+  color: azure;
+  font-size: 2vw;
+  font-family: "Playwrite DE Grund";
+  font-weight: 600;
+}
+
+h2 {
+  color: azure;
+  font-size: 4vw;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  color: azure;
+  font-size: 2vw;
+  font-family: "Playwrite DE Grund";
+  font-weight: 900;
+}
+
+p {
+  color: azure;
+  font-size: 1vw;
+  font-family: "Playwrite DE Grund";
+  font-weight: 900;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  transition: transform 0.2s;
+  border: 0.5px solid azure;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  background-color: orange;
+  color: black;
+}
